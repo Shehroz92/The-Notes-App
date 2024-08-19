@@ -1,6 +1,5 @@
 package eu.practice.notesapp.database
 
-import android.provider.ContactsContract
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Delete
