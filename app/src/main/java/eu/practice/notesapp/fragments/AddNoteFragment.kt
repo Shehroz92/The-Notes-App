@@ -13,9 +13,8 @@ import androidx.core.view.MenuHost
 import androidx.core.view.MenuProvider
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.findNavController
-import eu.practice.notesapp.MainActivity
+import eu.practice.notesapp.activity.MainActivity
 import eu.practice.notesapp.R
-import eu.practice.notesapp.adapter.NoteAdapter
 import eu.practice.notesapp.databinding.FragmentAddNoteBinding
 import eu.practice.notesapp.model.Note
 import eu.practice.notesapp.viewmodel.NoteViewModel

@@ -8,9 +8,8 @@ import androidx.core.view.MenuProvider
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.findNavController
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import eu.practice.notesapp.MainActivity
+import eu.practice.notesapp.activity.MainActivity
 import eu.practice.notesapp.R
 import eu.practice.notesapp.adapter.NoteAdapter
 import eu.practice.notesapp.databinding.FragmentHomeBinding

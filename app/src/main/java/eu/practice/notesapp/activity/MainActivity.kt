@@ -1,8 +1,10 @@
-package eu.practice.notesapp
+package eu.practice.notesapp.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
+import eu.practice.notesapp.R
 import eu.practice.notesapp.database.NoteDatabase
 import eu.practice.notesapp.repository.NoteRepository
 import eu.practice.notesapp.viewmodel.NoteViewModel
@@ -19,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         setupViewModel()
 
     }
-
     private fun setupViewModel(){
         val noteRepository = NoteRepository( NoteDatabase(this))
         val viewModelProviderFactory = NoteViewModelFactory( application , noteRepository )
