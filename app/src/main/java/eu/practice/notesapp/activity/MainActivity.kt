@@ -1,6 +1,6 @@
 package eu.practice.notesapp.activity
 
-import android.content.Intent
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
@@ -27,5 +27,4 @@ class MainActivity : AppCompatActivity() {
 
         noteViewModel  = ViewModelProvider(this , viewModelProviderFactory ) [ NoteViewModel::class.java]
     }
-
 }
